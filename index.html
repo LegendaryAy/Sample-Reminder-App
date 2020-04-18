@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reminder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    
+</head>
+<body>
+    <header id='main-header'>
+        <div class="container header">
+            <h1>Reminder App</h1>
+            <input name="search" type="text" placeholder="Search Items..." id="search">
+        </div>
+    </header>
+    <section id="main-section">
+        <div class="container">
+            <h2>Add Events</h2>
+            <form id="form">
+                <input name="add-items" type="text" id="item">
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+        <div class="container">
+            <h2>Events</h2>
+            <ul id="list-group">
+               <li class="list-group-item">Play football <button id="button" class="delete">X</button></li>
+               <li class="list-group-item">Cook  noodles <button id="button" class="delete">X</button></li>
+               <li class="list-group-item">Read<button id="button" class="delete">X</button></li>
+               <li class="list-group-item">Watch Naruto <button id="button" class="delete">X</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
